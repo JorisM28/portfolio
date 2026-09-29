@@ -59,15 +59,6 @@ export default function Page() {
       <LightRays />
       <div className="container px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
         <div className="flex justify-end gap-4">
-          <Button variant="outline" asChild>
-            <Link
-              href="https://github.com/victorymakes/profile"
-              target="_blank"
-            >
-              <LuGithub />
-              Use template
-            </Link>
-          </Button>
           <ThemeToggle />
         </div>
 
