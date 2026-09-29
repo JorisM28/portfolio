@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "main": ".open-next/worker.js",
-  "name": "profile",
+  "name": "portfolio-joris",
   "compatibility_date": "2025-11-17",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
@@ -16,13 +16,7 @@
       "persist": true
     }
   },
-  "routes": [
-    {
-      "pattern": "me.victoryhub.cc",
-      "custom_domain": true
-    }
-  ],
   "vars": {
-    "NEXT_PUBLIC_SITE_URL": "https://me.victoryhub.cc"
+    "NEXT_PUBLIC_SITE_URL": "https://portfolio-joris.pages.dev"
   }
 }
