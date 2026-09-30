@@ -87,22 +87,10 @@ export const profile: Profile = {
 
   projects: [
     {
-      name: "Lymphoma Diagnosis AI",
-      description:
-        "Industrial project developing a U-Net++ architecture with a ResNet50 encoder for pixel-by-pixel segmentation of digitized cytological slides.",
-      url: "https://github.com/JorisM28", // À remplacer par le lien exact si public
-      role: "AI Engineer (Student)",
-      status: "active",
-      start: "2026-09",
-      end: null,
-      tech: ["Python", "PyTorch", "Computer Vision", "DICOM", "U-Net++"],
-      image: "/projects/lymphoma.png", // À ajouter dans ton dossier public
-    },
-    {
       name: "NLP Sentiment Analysis",
       description:
         "End-to-end Machine Learning pipeline to analyze movie reviews using Scikit-Learn. Features TF-IDF vectorization and Multinomial Naive Bayes.",
-      url: "https://github.com/JorisM28",
+      url: "https://github.com/JorisM28/React-NLP-Bridge",
       role: "Creator",
       status: "archived",
       start: "2026-01", // Date approximative, à ajuster
@@ -114,7 +102,7 @@ export const profile: Profile = {
       name: "F1 Grand Prix Optimizer",
       description:
         "C program designed to calculate the optimal racing trajectory under fuel constraints using mathematical optimization algorithms.",
-      url: "https://github.com/JorisM28",
+      url: "https://github.com/JorisM28/grand-prix-f1",
       role: "Developer",
       status: "archived",
       start: "2025-01",
@@ -126,7 +114,7 @@ export const profile: Profile = {
       name: "Sudoku Qt App",
       description:
         "Desktop application featuring an interactive GUI and multiple difficulty algorithms built from scratch.",
-      url: "https://github.com/JorisM28",
+      url: "https://github.com/JorisM28/Sudoku-cpp-qt",
       role: "Developer",
       status: "archived",
       start: "2024-01",
