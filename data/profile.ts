@@ -9,7 +9,7 @@ export const profile: Profile = {
   person: {
     name: "Joris Moczygeba",
     headline: "AI & Computer Engineering Student",
-    avatar: `${BASE_URL}/ava11.png`,
+    avatar: `/ava11.png`,
     location: "Lyon, France",
     status: "🚀 Seeking a 6-month PFE Internship (March-August 2027)",
   },
